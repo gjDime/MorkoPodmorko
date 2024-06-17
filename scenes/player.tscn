@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhkhtahgtfdfj"]
+
+[ext_resource type="Script" path="res://scripts/player.cs" id="1_jal22"]
+[ext_resource type="Texture2D" uid="uid://0avr8d833k44" path="res://potential assets/submarine1/submarine.png" id="1_yt36v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lipud"]
+size = Vector2(87, 47)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_jal22")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.5, 12.5)
+shape = SubResource("RectangleShape2D_lipud")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+texture = ExtResource("1_yt36v")
