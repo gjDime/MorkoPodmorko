@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://dkgkkys5scp10"]
+[gd_scene load_steps=9 format=3 uid="uid://dkgkkys5scp10"]
 
 [ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Player_pong.tscn" id="1_lfilk"]
 [ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong_ball.tscn" id="2_y4fue"]
 [ext_resource type="Texture2D" uid="uid://bc2ohrwbumlda" path="res://potential assets/PlaceHolderAssets/wall.PNG" id="3_mifpp"]
 [ext_resource type="PackedScene" uid="uid://d3tq851m81pqt" path="res://scenes/pong_ai.tscn" id="4_1wgch"]
 [ext_resource type="Script" path="res://scripts/pong_ai.cs" id="5_ark2h"]
+[ext_resource type="Script" path="res://scripts/Left_Goal.cs" id="6_p8cie"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t5oye"]
 size = Vector2(241.979, 992.585)
@@ -81,7 +82,8 @@ position = Vector2(2922.78, 379.309)
 script = ExtResource("5_ark2h")
 
 [node name="Left_Goal" type="Area2D" parent="."]
-position = Vector2(70.6904, 374.582)
+position = Vector2(70.6904, 379.309)
+script = ExtResource("6_p8cie")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Left_Goal"]
 position = Vector2(-5.43772, -20.088)
@@ -95,5 +97,3 @@ position = Vector2(3042.41, 384.035)
 position = Vector2(-13.5943, -4.72653)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_m66p1")
-
-[connection signal="area_entered" from="Left_Goal" to="Pong_Ball" method="_on_left_goal_area_entered"]
