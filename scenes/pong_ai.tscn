@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3tq851m81pqt"]
+
+[ext_resource type="Texture2D" uid="uid://bgymofb7ctahg" path="res://potential assets/PlaceHolderAssets/Capture.PNG" id="1_y35cs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l4lek"]
+size = Vector2(2, 18)
+
+[node name="Pong_AI" type="CharacterBody2D"]
+scale = Vector2(50.8948, 19.3369)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_l4lek")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-4.59463e-09, 0.0525565)
+rotation = 3.14159
+scale = Vector2(0.00654239, -0.182653)
+texture = ExtResource("1_y35cs")

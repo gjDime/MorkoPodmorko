@@ -1,0 +1,99 @@
+[gd_scene load_steps=8 format=3 uid="uid://dkgkkys5scp10"]
+
+[ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Player_pong.tscn" id="1_lfilk"]
+[ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong_ball.tscn" id="2_y4fue"]
+[ext_resource type="Texture2D" uid="uid://bc2ohrwbumlda" path="res://potential assets/PlaceHolderAssets/wall.PNG" id="3_mifpp"]
+[ext_resource type="PackedScene" uid="uid://d3tq851m81pqt" path="res://scenes/pong_ai.tscn" id="4_1wgch"]
+[ext_resource type="Script" path="res://scripts/pong_ai.cs" id="5_ark2h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t5oye"]
+size = Vector2(241.979, 992.585)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m66p1"]
+size = Vector2(95.1601, 769.253)
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(0.367801, 0.846276)
+
+[node name="Wall1" type="StaticBody2D" parent="."]
+position = Vector2(-106.036, 358.039)
+
+[node name="Sprite2D" type="Sprite2D" parent="Wall1"]
+position = Vector2(-0.182944, 1.68401)
+rotation = 3.14159
+scale = Vector2(13.4605, -49.601)
+texture = ExtResource("3_mifpp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall1"]
+position = Vector2(3.8147e-06, 1.18163)
+shape = SubResource("RectangleShape2D_t5oye")
+
+[node name="Wall2" type="StaticBody2D" parent="."]
+position = Vector2(3202.82, 363.948)
+
+[node name="Sprite2D" type="Sprite2D" parent="Wall2"]
+position = Vector2(-0.182944, 1.68401)
+rotation = 3.14159
+scale = Vector2(13.4605, -49.601)
+texture = ExtResource("3_mifpp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall2"]
+position = Vector2(3.8147e-06, 1.18163)
+shape = SubResource("RectangleShape2D_t5oye")
+
+[node name="Wall3" type="StaticBody2D" parent="."]
+position = Vector2(1598.69, 827.154)
+scale = Vector2(-15.8391, 0.165989)
+
+[node name="Sprite2D" type="Sprite2D" parent="Wall3"]
+position = Vector2(-0.182944, 1.68401)
+rotation = 3.14159
+scale = Vector2(13.4605, -49.601)
+texture = ExtResource("3_mifpp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall3"]
+position = Vector2(-1.35938, 1.18164)
+shape = SubResource("RectangleShape2D_t5oye")
+
+[node name="Wall4" type="StaticBody2D" parent="."]
+position = Vector2(1574.22, -68.5356)
+scale = Vector2(-15.8391, 0.165989)
+
+[node name="Sprite2D" type="Sprite2D" parent="Wall4"]
+position = Vector2(-0.182944, 1.68401)
+rotation = 3.14159
+scale = Vector2(13.4605, -49.601)
+texture = ExtResource("3_mifpp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall4"]
+position = Vector2(-1.35938, 1.18164)
+shape = SubResource("RectangleShape2D_t5oye")
+
+[node name="Player_Pong" parent="." instance=ExtResource("1_lfilk")]
+position = Vector2(168.569, 393.489)
+
+[node name="Pong_Ball" parent="." instance=ExtResource("2_y4fue")]
+position = Vector2(1405.65, 420.667)
+scale = Vector2(8, 4)
+
+[node name="Pong_AI" parent="." instance=ExtResource("4_1wgch")]
+position = Vector2(2922.78, 379.309)
+script = ExtResource("5_ark2h")
+
+[node name="Left_Goal" type="Area2D" parent="."]
+position = Vector2(70.6904, 374.582)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Left_Goal"]
+position = Vector2(-5.43772, -20.088)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_m66p1")
+
+[node name="Right_Goal" type="Area2D" parent="."]
+position = Vector2(3042.41, 384.035)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Goal"]
+position = Vector2(-13.5943, -4.72653)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_m66p1")
+
+[connection signal="area_entered" from="Left_Goal" to="Pong_Ball" method="_on_left_goal_area_entered"]

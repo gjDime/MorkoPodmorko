@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://d4bidp2i5eyxs"]
+
+[ext_resource type="Texture2D" uid="uid://ccnme7fdmqggo" path="res://potential assets/fish pack/PNG/Default size/fishTile_124.png" id="1_g23vt"]
+[ext_resource type="Script" path="res://scripts/Pong_ball_1.cs" id="1_ikrib"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i1wi3"]
+size = Vector2(13, 13)
+
+[node name="Pong_Ball" type="CharacterBody2D"]
+scale = Vector2(4, 4)
+script = ExtResource("1_ikrib")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_g23vt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.25)
+shape = SubResource("RectangleShape2D_i1wi3")
