@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/Pong_Game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong_Game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Left_Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Left_Goal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/pong_ai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/pong_ai.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,28 +28,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Executable.Player.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Player.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Aghatos\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Aghatos\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Aghatos\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Aghatos\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Aghatos\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Aghatos\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Executable.Player">
     <configuration name="Editor" type="RunExe" factoryName=".NET Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../../Godot_v4.2.2-stable_mono_win64/Godot_v4.2.2-stable_mono_win64.exe" />
@@ -87,6 +89,9 @@
       <workItem from="1718556596987" duration="89000" />
       <workItem from="1718562204241" duration="1000" />
       <workItem from="1718639718639" duration="2376000" />
+      <workItem from="1718898961016" duration="2876000" />
+      <workItem from="1718901956243" duration="50000" />
+      <workItem from="1718902186990" duration="117000" />
     </task>
     <servers />
   </component>

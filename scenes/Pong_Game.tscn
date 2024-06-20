@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Player_pong.tscn" id="1_lfilk"]
 [ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong_ball.tscn" id="2_y4fue"]
-[ext_resource type="Texture2D" uid="uid://bc2ohrwbumlda" path="res://potential assets/PlaceHolderAssets/wall.PNG" id="3_mifpp"]
+[ext_resource type="Texture2D" path="res://potential assets/PlaceHolderAssets/wall.PNG" id="3_mifpp"]
 [ext_resource type="PackedScene" uid="uid://d3tq851m81pqt" path="res://scenes/pong_ai.tscn" id="4_1wgch"]
 [ext_resource type="Script" path="res://scripts/pong_ai.cs" id="5_ark2h"]
 [ext_resource type="Script" path="res://scripts/Left_Goal.cs" id="6_p8cie"]
@@ -71,23 +71,22 @@ position = Vector2(-1.35938, 1.18164)
 shape = SubResource("RectangleShape2D_t5oye")
 
 [node name="Player_Pong" parent="." instance=ExtResource("1_lfilk")]
-position = Vector2(168.569, 393.489)
+position = Vector2(206.633, 389.944)
 
 [node name="Pong_Ball" parent="." instance=ExtResource("2_y4fue")]
 position = Vector2(1405.65, 420.667)
 scale = Vector2(8, 4)
 
 [node name="Pong_AI" parent="." instance=ExtResource("4_1wgch")]
-position = Vector2(2922.78, 379.309)
+position = Vector2(2884.71, 384.035)
 script = ExtResource("5_ark2h")
 
 [node name="Left_Goal" type="Area2D" parent="."]
-position = Vector2(70.6904, 379.309)
+position = Vector2(73.4093, 379.309)
 script = ExtResource("6_p8cie")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Left_Goal"]
 position = Vector2(-5.43772, -20.088)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_m66p1")
 
 [node name="Right_Goal" type="Area2D" parent="."]
@@ -95,5 +94,6 @@ position = Vector2(3042.41, 384.035)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Goal"]
 position = Vector2(-13.5943, -4.72653)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_m66p1")
+
+[connection signal="body_entered" from="Left_Goal" to="Left_Goal" method="BodyEntered"]
