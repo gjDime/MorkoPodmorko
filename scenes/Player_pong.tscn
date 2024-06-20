@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b8j5ak7gmhgh0"]
 
 [ext_resource type="Script" path="res://scripts/PongController.cs" id="1_57l4a"]
-[ext_resource type="Texture2D" uid="uid://bgymofb7ctahg" path="res://potential assets/PlaceHolderAssets/Capture.PNG" id="2_mgk0j"]
+[ext_resource type="Texture2D" uid="uid://bgymofb7ctahg" path="res://assets/PlaceHolderAssets/Capture.PNG" id="2_mgk0j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l4lek"]
 size = Vector2(2, 18)

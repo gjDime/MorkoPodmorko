@@ -1,6 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://d3tq851m81pqt"]
-
-[ext_resource type="Texture2D" path="res://potential assets/PlaceHolderAssets/Capture.PNG" id="1_y35cs"]
+[gd_scene load_steps=2 format=3 uid="uid://d3tq851m81pqt"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l4lek"]
 size = Vector2(2, 18)
@@ -15,4 +13,3 @@ shape = SubResource("RectangleShape2D_l4lek")
 position = Vector2(-4.59463e-09, 0.0525565)
 rotation = 3.14159
 scale = Vector2(0.00654239, -0.182653)
-texture = ExtResource("1_y35cs")

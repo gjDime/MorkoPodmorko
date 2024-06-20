@@ -1,60 +1,13 @@
-[gd_scene load_steps=12 format=3 uid="uid://dwu6hb3pev424"]
+[gd_scene load_steps=5 format=3 uid="uid://dwu6hb3pev424"]
 
 [ext_resource type="PackedScene" uid="uid://bhkhtahgtfdfj" path="res://scenes/player.tscn" id="1_og1u5"]
-[ext_resource type="Texture2D" uid="uid://c6s8hrnen3ts5" path="res://scenes/wall.PNG" id="1_y12no"]
-[ext_resource type="Texture2D" uid="uid://dpc4l66rpou3w" path="res://assets/fish/BlueFish4.png" id="3_id8ih"]
-[ext_resource type="Texture2D" uid="uid://ce8d57p8vhb0p" path="res://assets/fish/RedFish2.png" id="4_fr1y3"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_gp5gt"]
-atlas = ExtResource("3_id8ih")
-region = Rect2(0, 0, 1440, 1080)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_dhidm"]
-atlas = ExtResource("3_id8ih")
-region = Rect2(0, 1080, 1440, 1080)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_ip1dr"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_gp5gt")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_dhidm")
-}],
-"loop": true,
-"name": &"default",
-"speed": 3.0
-}]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_qbhco"]
-radius = 41.0488
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_qnp3q"]
-atlas = ExtResource("4_fr1y3")
-region = Rect2(0, 0, 1296, 1080)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_efw6q"]
-atlas = ExtResource("4_fr1y3")
-region = Rect2(0, 1080, 1296, 1080)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_c7ufs"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_qnp3q")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_efw6q")
-}],
-"loop": true,
-"name": &"default",
-"speed": 3.0
-}]
+[ext_resource type="Texture2D" uid="uid://c6s8hrnen3ts5" path="res://assets/fish/wall.PNG" id="1_y12no"]
+[ext_resource type="PackedScene" uid="uid://dk1i7ggtj81y6" path="res://scenes/blue_fish.tscn" id="3_xrckn"]
+[ext_resource type="PackedScene" uid="uid://cntwxj42y2n18" path="res://scenes/red_fish.tscn" id="4_ed3lw"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Wall" type="Sprite2D" parent="."]
+[node name="BackGround" type="Sprite2D" parent="."]
 position = Vector2(684, 288.5)
 scale = Vector2(112.333, 61.95)
 texture = ExtResource("1_y12no")
@@ -66,27 +19,8 @@ position = Vector2(580, 325)
 position_smoothing_enabled = true
 position_smoothing_speed = 3.0
 
-[node name="BlueFish" type="StaticBody2D" parent="."]
+[node name="BlueFish" parent="." instance=ExtResource("3_xrckn")]
+position = Vector2(91, 65)
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BlueFish"]
-scale = Vector2(0.08, 0.08)
-sprite_frames = SubResource("SpriteFrames_ip1dr")
-autoplay = "default"
-frame_progress = 0.453063
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="BlueFish"]
-position = Vector2(4, -4)
-shape = SubResource("CircleShape2D_qbhco")
-
-[node name="RedFish" type="StaticBody2D" parent="."]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="RedFish"]
-position = Vector2(-8, 206)
-scale = Vector2(0.08, 0.08)
-sprite_frames = SubResource("SpriteFrames_c7ufs")
-autoplay = "default"
-frame_progress = 0.232817
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="RedFish"]
-position = Vector2(-7, 202)
-shape = SubResource("CircleShape2D_qbhco")
+[node name="PurpleFish" parent="." instance=ExtResource("4_ed3lw")]
+position = Vector2(120, 510)

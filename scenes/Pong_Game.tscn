@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Player_pong.tscn" id="1_lfilk"]
 [ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong_ball.tscn" id="2_y4fue"]
-[ext_resource type="Texture2D" path="res://potential assets/PlaceHolderAssets/wall.PNG" id="3_mifpp"]
+[ext_resource type="Texture2D" uid="uid://dclqsyu818vb7" path="res://assets/bg/Underwater Mountains cc-by 3.0.png" id="3_mifpp"]
 [ext_resource type="PackedScene" uid="uid://d3tq851m81pqt" path="res://scenes/pong_ai.tscn" id="4_1wgch"]
 [ext_resource type="Script" path="res://scripts/pong_ai.cs" id="5_ark2h"]
 [ext_resource type="Script" path="res://scripts/Left_Goal.cs" id="6_p8cie"]
@@ -20,6 +20,7 @@ scale = Vector2(0.367801, 0.846276)
 position = Vector2(-106.036, 358.039)
 
 [node name="Sprite2D" type="Sprite2D" parent="Wall1"]
+visible = false
 position = Vector2(-0.182944, 1.68401)
 rotation = 3.14159
 scale = Vector2(13.4605, -49.601)
@@ -33,6 +34,7 @@ shape = SubResource("RectangleShape2D_t5oye")
 position = Vector2(3202.82, 363.948)
 
 [node name="Sprite2D" type="Sprite2D" parent="Wall2"]
+visible = false
 position = Vector2(-0.182944, 1.68401)
 rotation = 3.14159
 scale = Vector2(13.4605, -49.601)
@@ -47,6 +49,7 @@ position = Vector2(1598.69, 827.154)
 scale = Vector2(-15.8391, 0.165989)
 
 [node name="Sprite2D" type="Sprite2D" parent="Wall3"]
+visible = false
 position = Vector2(-0.182944, 1.68401)
 rotation = 3.14159
 scale = Vector2(13.4605, -49.601)
@@ -61,6 +64,7 @@ position = Vector2(1574.22, -68.5356)
 scale = Vector2(-15.8391, 0.165989)
 
 [node name="Sprite2D" type="Sprite2D" parent="Wall4"]
+visible = false
 position = Vector2(-0.182944, 1.68401)
 rotation = 3.14159
 scale = Vector2(13.4605, -49.601)

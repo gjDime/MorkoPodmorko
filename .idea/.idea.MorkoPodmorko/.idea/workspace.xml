@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/potential assets/collectables and stuff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/Player_pong.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Player_pong.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenes/Pong_Game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong_Game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/Pong_ball.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong_ball.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenes/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Left_Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Left_Goal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/pong_ai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/pong_ai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/pong_ai.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/pong_ai.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/wall.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/wall.PNG.import" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -92,6 +99,8 @@
       <workItem from="1718898961016" duration="2876000" />
       <workItem from="1718901956243" duration="50000" />
       <workItem from="1718902186990" duration="117000" />
+      <workItem from="1718915498324" duration="65000" />
+      <workItem from="1718915617656" duration="1128000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://dk1i7ggtj81y6"]
+
+[ext_resource type="Texture2D" uid="uid://dpc4l66rpou3w" path="res://assets/fish/BlueFish4.png" id="1_3hqmx"]
+[ext_resource type="Script" path="res://scripts/Main/Area2DBlueFish.cs" id="2_q1aua"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gp5gt"]
+atlas = ExtResource("1_3hqmx")
+region = Rect2(0, 0, 1440, 1080)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dhidm"]
+atlas = ExtResource("1_3hqmx")
+region = Rect2(0, 1080, 1440, 1080)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g8i55"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gp5gt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dhidm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_huju6"]
+radius = 41.0488
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lr8q1"]
+radius = 80.0062
+
+[node name="BlueFish" type="StaticBody2D"]
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.08, 0.08)
+sprite_frames = SubResource("SpriteFrames_g8i55")
+autoplay = "default"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(4, -4)
+shape = SubResource("CircleShape2D_huju6")
+
+[node name="Area2D2" type="Area2D" parent="."]
+position = Vector2(-1, 0)
+script = ExtResource("2_q1aua")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+visible = false
+position = Vector2(2, -1)
+shape = SubResource("CircleShape2D_lr8q1")
+
+[connection signal="body_entered" from="Area2D2" to="Area2D2" method="BodyEntered"]
+[connection signal="body_exited" from="Area2D2" to="Area2D2" method="BodyExcited"]
