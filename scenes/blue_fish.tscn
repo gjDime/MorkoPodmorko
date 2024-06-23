@@ -39,7 +39,6 @@ sprite_frames = SubResource("SpriteFrames_g8i55")
 autoplay = "default"
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2(4, -4)
 shape = SubResource("CircleShape2D_huju6")
 
@@ -48,7 +47,6 @@ position = Vector2(-1, 0)
 script = ExtResource("2_q1aua")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
-visible = false
 position = Vector2(2, -1)
 shape = SubResource("CircleShape2D_lr8q1")
 

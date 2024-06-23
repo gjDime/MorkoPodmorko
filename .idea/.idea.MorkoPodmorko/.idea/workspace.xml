@@ -6,15 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/potential assets/collectables and stuff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/Player_pong.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Player_pong.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/Pong_Game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong_Game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/Pong_ball.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong_ball.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/pong_ai.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/pong_ai.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/wall.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/wall.PNG.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/cards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/cards.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/cardsBig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/cardsBig.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/blue_fish.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blue_fish.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/red_fish.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/red_fish.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9fd3b083f28f40c0827cc635e2e56ca7459200/45/cb2c1b45/ResourcePreloader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a58fbeae4f3944df81411b5e04b02667b510/22/a71dbc86/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="SWEA" />
@@ -101,6 +103,9 @@
       <workItem from="1718902186990" duration="117000" />
       <workItem from="1718915498324" duration="65000" />
       <workItem from="1718915617656" duration="1128000" />
+      <workItem from="1719152827658" duration="69000" />
+      <workItem from="1719152921270" duration="307000" />
+      <workItem from="1719153240443" duration="6522000" />
     </task>
     <servers />
   </component>
