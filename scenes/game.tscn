@@ -8,7 +8,7 @@
 [node name="Game" type="Node2D"]
 
 [node name="BackGround" type="Sprite2D" parent="."]
-position = Vector2(684, 288.5)
+position = Vector2(580, 320)
 scale = Vector2(112.333, 61.95)
 texture = ExtResource("1_y12no")
 
