@@ -1,9 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://bdf5chu781jjh"]
+[gd_scene load_steps=3 format=3 uid="uid://bdf5chu781jjh"]
 
 [ext_resource type="Script" path="res://scenes/blackjack/table.cs" id="1_jchlr"]
+[ext_resource type="Texture2D" uid="uid://cn51ly5xm8ui8" path="res://assets/bg/BlackJackBG.jpg" id="2_wkr2b"]
 
 [node name="Table" type="Node2D"]
 script = ExtResource("1_jchlr")
+
+[node name="BlackJackBg" type="Sprite2D" parent="."]
+position = Vector2(578, 325)
+scale = Vector2(0.385, 0.385)
+texture = ExtResource("2_wkr2b")
 
 [node name="HitButton" type="Button" parent="."]
 offset_left = 144.0
@@ -21,12 +27,11 @@ text = "STAY
 "
 
 [node name="ResetButton" type="Button" parent="."]
-visible = false
 offset_left = 139.0
 offset_top = 29.0
 offset_right = 285.0
 offset_bottom = 81.0
-text = "Reset"
+text = "Go again"
 
 [node name="GameStateLabel" type="Label" parent="."]
 offset_left = 371.0
@@ -46,6 +51,14 @@ offset_top = 65.0
 offset_right = 877.0
 offset_bottom = 132.0
 
+[node name="GoBackButton" type="Button" parent="."]
+offset_left = 147.0
+offset_top = 129.0
+offset_right = 263.0
+offset_bottom = 210.0
+text = "Go back"
+
 [connection signal="pressed" from="HitButton" to="." method="HitButtonPressed"]
 [connection signal="pressed" from="StayButton" to="." method="StayButtonPressed"]
 [connection signal="pressed" from="ResetButton" to="." method="ResetButtonPressed"]
+[connection signal="pressed" from="GoBackButton" to="." method="BackButtonPressed"]
