@@ -8,6 +8,7 @@ public partial class Area2DBlueFish : Area2D
 
 	private void BodyEntered(Node2D node)
 	{
+		if(node.Name == "Player")
 		entered = true;
 		// GD.Print(entered);
 	}
@@ -15,6 +16,7 @@ public partial class Area2DBlueFish : Area2D
 	
 	private void BodyExcited(Node2D node)
 	{
+		if(node.Name == "Player")
 		entered = false;
 		// GD.Print(entered);
 	}

@@ -1,11 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://dwu6hb3pev424"]
+[gd_scene load_steps=6 format=3 uid="uid://dwu6hb3pev424"]
 
+[ext_resource type="Script" path="res://scripts/Main/Main_Game.cs" id="1_h4ttv"]
 [ext_resource type="PackedScene" uid="uid://bhkhtahgtfdfj" path="res://scenes/player.tscn" id="1_og1u5"]
 [ext_resource type="Texture2D" uid="uid://c6s8hrnen3ts5" path="res://assets/fish/wall.PNG" id="1_y12no"]
 [ext_resource type="PackedScene" uid="uid://dk1i7ggtj81y6" path="res://scenes/blue_fish.tscn" id="3_xrckn"]
 [ext_resource type="PackedScene" uid="uid://cntwxj42y2n18" path="res://scenes/red_fish.tscn" id="4_ed3lw"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_h4ttv")
 
 [node name="BackGround" type="Sprite2D" parent="."]
 position = Vector2(580, 320)

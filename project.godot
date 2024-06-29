@@ -15,6 +15,10 @@ run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.2", "C#", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GlobalVar="*res://global_var.cs"
+
 [dotnet]
 
 project/assembly_name="MorkoPodmorko"

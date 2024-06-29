@@ -61,7 +61,7 @@ public partial class table : Node2D
         var value = deck[index].Value;
         var path = deck[index].Key;
         deck.RemoveAt(index);
-        
+
         Card card = ResourceLoader.Load<PackedScene>("res://scenes/blackjack/card.tscn").Instantiate<Card>();
         var sprite = card.GetNode<Sprite2D>("Sprite2D");
         if (flag == "d" && dealerCards.Count == 1)
@@ -72,7 +72,7 @@ public partial class table : Node2D
         }
         else
             sprite.Texture = GD.Load<Texture2D>(path);
-        
+
         Pos(card, flag);
         AddChild(card);
         return value;
@@ -183,6 +183,8 @@ public partial class table : Node2D
 
     private void BackButtonPressed()
     {
+        var global = GetNode<global_var>("/root/GlobalVar");
+        global.purpleFish = false;
         GetTree().ChangeSceneToFile("res://scenes/game.tscn");
     }
 

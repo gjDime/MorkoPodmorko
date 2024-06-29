@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="" />
+    <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/blackjack/table.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/table.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Main/Area2DBlueFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Main/Area2DBlueFish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Main/Area2DRedFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Main/Area2DRedFish.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +114,7 @@
       <workItem from="1719415753925" duration="3669000" />
       <workItem from="1719419952515" duration="534000" />
       <workItem from="1719420569190" duration="638000" />
+      <workItem from="1719678696911" duration="744000" />
     </task>
     <servers />
   </component>
