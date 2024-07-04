@@ -9,7 +9,7 @@
 default_font = SubResource("SystemFont_m3ehr")
 default_font_size = 34
 
-[node name="Control" type="Control"]
+[node name="GameOverScene" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -41,12 +41,14 @@ offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Label" type="Label" parent="VBoxContainer"]
+[node name="GameOver" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 theme = SubResource("Theme_ijtmb")
 text = "GAME OVER"
 uppercase = true
 
-[node name="Button" type="Button" parent="VBoxContainer"]
+[node name="TryAgain" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "TRY AGAIN?"
+
+[connection signal="pressed" from="VBoxContainer/TryAgain" to="." method="RetryPressed"]

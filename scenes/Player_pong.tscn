@@ -4,17 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://bgymofb7ctahg" path="res://assets/PlaceHolderAssets/Capture.PNG" id="2_mgk0j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l4lek"]
-size = Vector2(2, 18)
+size = Vector2(0.746638, 8.27433)
 
 [node name="Pong_Player" type="CharacterBody2D"]
-scale = Vector2(50.8948, 19.3369)
+scale = Vector2(49.4338, 9.1369)
 script = ExtResource("1_57l4a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.87382e-08, 0.103429)
 shape = SubResource("RectangleShape2D_l4lek")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-4.59463e-09, 0.0525565)
 rotation = 3.14159
-scale = Vector2(0.00654239, -0.182653)
+scale = Vector2(0.00228981, -0.0820705)
 texture = ExtResource("2_mgk0j")

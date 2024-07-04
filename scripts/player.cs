@@ -19,7 +19,7 @@ public partial class player : CharacterBody2D
         Vector2 direction = Input.GetVector("move_left", "move_right", "move_up", "move_down");
         if (direction != Vector2.Zero)
         {
-            
+            ((AnimationPlayer)GetNode("AnimationPlayer")).Stop();
             if (Math.Abs(velocity.X) <= maxXSpeed)
                 velocity.X += direction.X * Speed * (float)delta;
             
@@ -31,6 +31,7 @@ public partial class player : CharacterBody2D
         }
         else
         {
+           ((AnimationPlayer)GetNode("AnimationPlayer")).Play("idle");
             velocity.X = Mathf.MoveToward(Velocity.X, 0, 13);
             velocity.Y = Mathf.MoveToward(Velocity.Y, 0, 13);
         }
