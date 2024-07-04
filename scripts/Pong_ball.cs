@@ -4,18 +4,20 @@ using System.ComponentModel;
 
 public partial class Pong_ball : CharacterBody2D
 {
-	private Vector2 velocity = new Vector2(-150,150);
+    private Vector2 velocity;
 	 private float _bounceFactor = 1.0f;
     // Called when the node enters the scene tree for the first time.
-
+    public override void _Ready()
+    {
+        velocity = new Vector2(-150, 150);
+    }
     public override void _PhysicsProcess(double delta)
     {
 		
         var collision_info = MoveAndCollide(velocity*(float)delta);
 		if (collision_info != null)
-		{	
-			velocity = velocity.Bounce(collision_info.GetNormal()) * _bounceFactor;
-
+		{
+            velocity = velocity.Bounce(collision_info.GetNormal());
 		}
 
 		Position += velocity * (float)delta;

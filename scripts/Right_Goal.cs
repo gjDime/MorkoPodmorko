@@ -5,12 +5,17 @@ public partial class Right_Goal : Area2D
 {
     // Called when the node enters the scene tree for the first time.
     private CharacterBody2D ball { get; set; }
+    private CharacterBody2D player { get; set; }
+    private CharacterBody2D CPU { get; set; }
     private Label lblPlayer {  get; set; }
     int Player_Score;
 
     public override void _Ready()
     {
         Player_Score = 0;
+        player = this.GetParent().GetNode<CharacterBody2D>("Player_Pong");
+        CPU = this.GetParent().GetNode<CharacterBody2D>("Pong_AI");
+
         ball = this.GetParent().GetNode<CharacterBody2D>("Pong_Ball");
         lblPlayer = this.GetParent().GetNode<Label>("Player_Score");
     }
@@ -23,7 +28,7 @@ public partial class Right_Goal : Area2D
             lblPlayer.Text = Player_Score.ToString();
             resetScene();
         }  
-        if (Player_Score >= 5)
+        if (Player_Score >= 3)
         {
             var global = GetNode<global_var>("/root/GlobalVar");
             global.blueFish = false;

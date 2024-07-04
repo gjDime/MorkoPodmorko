@@ -5,4 +5,5 @@ public partial class global_var : Node
 {
 	public bool purpleFish = true;
 	public bool blueFish = true;
+	public bool pongGameOver = false;
 }

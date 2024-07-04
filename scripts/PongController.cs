@@ -3,17 +3,12 @@ using System;
 
 public partial class PongController : CharacterBody2D
 {
-	public const float Speed = 300.0f;
+	public const float Speed = 450.0f;
 
 	public override void _PhysicsProcess(double delta)
 	{
 		Vector2 velocity = Velocity;
 
-		// Add the gravity.
-
-
-		// Get the input direction and handle the movement/deceleration.
-		// As good practice, you should replace UI actions with custom gameplay actions.
 		float direction = Input.GetAxis("move_up", "move_down");
 		//Vector2 direction = Input.GetVector("ui_left", "ui_right", "ui_up", "ui_down");
 		if (direction != 0)

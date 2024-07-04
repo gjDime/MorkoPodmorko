@@ -1,11 +1,9 @@
-[gd_scene load_steps=18 format=3 uid="uid://dkgkkys5scp10"]
+[gd_scene load_steps=16 format=3 uid="uid://dkgkkys5scp10"]
 
 [ext_resource type="Script" path="res://scripts/Pong_Game.cs" id="1_kwh8a"]
 [ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Player_pong.tscn" id="1_lfilk"]
 [ext_resource type="Texture2D" uid="uid://dfrlhdy4cpsny" path="res://assets/Backgrounds/sea_background.png" id="1_ssqvx"]
-[ext_resource type="Texture2D" uid="uid://ck2w7i71nd327" path="res://assets/Backgrounds/farground.png" id="2_3yujx"]
 [ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong_ball.tscn" id="2_y4fue"]
-[ext_resource type="Texture2D" uid="uid://l5cdodm1oqwb" path="res://assets/Backgrounds/mid_background.png" id="3_sgwru"]
 [ext_resource type="Texture2D" uid="uid://d8gbdm84r0yg" path="res://assets/Backgrounds/foreground.png" id="4_152ff"]
 [ext_resource type="Texture2D" uid="uid://dkasc1pj6ariq" path="res://assets/Solid_Colors/white.jpg" id="5_0u21u"]
 [ext_resource type="Script" path="res://scripts/pong_ai.cs" id="5_ark2h"]
@@ -32,80 +30,76 @@ font_size = 36
 scale = Vector2(0.367801, 0.846276)
 script = ExtResource("1_kwh8a")
 
-[node name="SeaBackground" type="Sprite2D" parent="."]
+[node name="Backgrounds" type="Node2D" parent="."]
+
+[node name="SeaBackground" type="Sprite2D" parent="Backgrounds"]
 position = Vector2(1579.28, 382.263)
 rotation = -0.00248994
 scale = Vector2(1.63454, 0.712271)
 texture = ExtResource("1_ssqvx")
 
-[node name="Farground" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(1571.5, 575.462)
-scale = Vector2(1.64136, 0.527162)
-texture = ExtResource("2_3yujx")
-
-[node name="MidBackground" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(1566, 438.391)
-scale = Vector2(1.67386, 0.956636)
-texture = ExtResource("3_sgwru")
-
-[node name="Foreground" type="Sprite2D" parent="."]
+[node name="Foreground" type="Sprite2D" parent="Backgrounds"]
 position = Vector2(1608.86, 386.99)
 scale = Vector2(1.76234, 0.755556)
 texture = ExtResource("4_152ff")
 
-[node name="Wall_left" type="StaticBody2D" parent="."]
-position = Vector2(-26, 373)
+[node name="Walls" type="Node2D" parent="."]
 
-[node name="Sprite2D" type="Sprite2D" parent="Wall_left"]
+[node name="Wall_left" type="StaticBody2D" parent="Walls"]
+position = Vector2(-26, 373)
+scale = Vector2(1, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Walls/Wall_left"]
 position = Vector2(3.83264, 0.511124)
 rotation = 3.14159
 scale = Vector2(0.0864037, -0.796111)
 texture = ExtResource("5_0u21u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall_left"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_left"]
 position = Vector2(2.59436, 1.1817)
 scale = Vector2(1, 0.999999)
 shape = SubResource("RectangleShape2D_t5oye")
 
-[node name="Wall_right" type="StaticBody2D" parent="."]
+[node name="Wall_right" type="StaticBody2D" parent="Walls"]
 position = Vector2(3150, 373)
+scale = Vector2(1, 1)
 
-[node name="Sprite2D" type="Sprite2D" parent="Wall_right"]
+[node name="Sprite2D" type="Sprite2D" parent="Walls/Wall_right"]
 position = Vector2(3.83264, 0.511124)
 rotation = 3.14159
 scale = Vector2(0.0864037, -0.796111)
 texture = ExtResource("5_0u21u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall_right"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_right"]
 position = Vector2(2.78931, 1.18173)
 scale = Vector2(1, 0.999999)
 shape = SubResource("RectangleShape2D_t5oye")
 
-[node name="Wall_up" type="StaticBody2D" parent="."]
+[node name="Wall_up" type="StaticBody2D" parent="Walls"]
 position = Vector2(1538.88, -10.6348)
+scale = Vector2(1, 1)
 
-[node name="Sprite2D" type="Sprite2D" parent="Wall_up"]
+[node name="Sprite2D" type="Sprite2D" parent="Walls/Wall_up"]
 position = Vector2(2.71889, -1.18166)
 rotation = 3.14159
 scale = Vector2(-2.451, -0.049)
 texture = ExtResource("5_0u21u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall_up"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_up"]
 position = Vector2(4.07828, -1.18173)
 shape = SubResource("RectangleShape2D_lwt7u")
 
-[node name="Wall_down" type="StaticBody2D" parent="."]
+[node name="Wall_down" type="StaticBody2D" parent="Walls"]
 position = Vector2(1536.16, 776.342)
+scale = Vector2(1, 1)
 
-[node name="Sprite2D" type="Sprite2D" parent="Wall_down"]
+[node name="Sprite2D" type="Sprite2D" parent="Walls/Wall_down"]
 position = Vector2(2.71889, -1.18166)
 rotation = 3.14159
 scale = Vector2(-2.451, -0.049)
 texture = ExtResource("5_0u21u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall_down"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/Wall_down"]
 position = Vector2(4.07828, -1.18173)
 shape = SubResource("RectangleShape2D_lwt7u")
 
@@ -116,16 +110,27 @@ texture = ExtResource("12_rm2lg")
 region_enabled = true
 region_rect = Rect2(799.008, 456.78, 131.348, 1043.22)
 
-[node name="Player_Pong" parent="." instance=ExtResource("1_lfilk")]
-position = Vector2(146.819, 389.944)
-
-[node name="Pong_AI" parent="." instance=ExtResource("1_lfilk")]
-position = Vector2(2982.59, 387.58)
-script = ExtResource("5_ark2h")
-
 [node name="Pong_Ball" parent="." instance=ExtResource("2_y4fue")]
 position = Vector2(1557.91, 413.577)
 scale = Vector2(8, 4)
+
+[node name="Pong_AI" parent="." instance=ExtResource("1_lfilk")]
+position = Vector2(2982.59, 387.58)
+scale = Vector2(49.4338, 9.1369)
+script = ExtResource("5_ark2h")
+
+[node name="Player_Pong" parent="." instance=ExtResource("1_lfilk")]
+position = Vector2(146.819, 389.944)
+scale = Vector2(49.4338, 9.1369)
+
+[node name="Right_Goal" type="Area2D" parent="."]
+position = Vector2(3042.41, 384.035)
+scale = Vector2(1, 1)
+script = ExtResource("9_u5jh3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Goal"]
+position = Vector2(2.41675, 0.000518799)
+shape = SubResource("RectangleShape2D_m66p1")
 
 [node name="Left_Goal" type="Area2D" parent="."]
 position = Vector2(59.815, 378.127)
@@ -137,31 +142,22 @@ position = Vector2(21.7508, -9.15527e-05)
 scale = Vector2(1, 0.999999)
 shape = SubResource("RectangleShape2D_m66p1")
 
-[node name="Right_Goal" type="Area2D" parent="."]
-position = Vector2(3042.41, 384.035)
-script = ExtResource("9_u5jh3")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Goal"]
-position = Vector2(2.41675, 0.000518799)
-scale = Vector2(1, 1)
-shape = SubResource("RectangleShape2D_m66p1")
-
 [node name="Player_Score" type="Label" parent="."]
 offset_left = 1455.0
 offset_top = 30.0
 offset_right = 1501.0
-offset_bottom = 66.0
+offset_bottom = 80.0
 text = "0"
 label_settings = SubResource("LabelSettings_qlawt")
 
 [node name="CPU_Score" type="Label" parent="."]
 offset_left = 1650.35
-offset_top = 29.5412
+offset_top = 31.9045
 offset_right = 1691.35
-offset_bottom = 79.5412
+offset_bottom = 81.9045
 text = "0
 "
 label_settings = SubResource("LabelSettings_gwdb4")
 
-[connection signal="body_entered" from="Left_Goal" to="Left_Goal" method="BodyEntered"]
 [connection signal="body_entered" from="Right_Goal" to="Right_Goal" method="BodyEntered"]
+[connection signal="body_entered" from="Left_Goal" to="Left_Goal" method="BodyEntered"]
