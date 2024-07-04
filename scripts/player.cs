@@ -12,7 +12,6 @@ public partial class player : CharacterBody2D
         Vector2 velocity = Velocity;
 
         Sprite2D sprite = this.GetNode<Godot.Sprite2D>("Sprite"); //    MUCHO IMPORTANTE!!!!!
-        Camera2D camera = this.GetNode<Godot.Camera2D>("Camera2D");
 
         // Get the input direction and handle the movement/deceleration.
         // As good practice, you should replace UI actions with custom gameplay actions.

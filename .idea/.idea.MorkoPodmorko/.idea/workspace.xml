@@ -6,11 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/blackjackJingle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/blackjackJingle.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/cardFlip.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/cardFlip.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/cardPlace.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/cardPlace.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/collectCards.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/collectCards.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/losingJingle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/losingJingle.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/tieJingle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/tieJingle.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/victoryJingle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/victoryJingle.ogg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenes/blackjack/table.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/table.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Main/Area2DBlueFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Main/Area2DBlueFish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Main/Area2DRedFish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Main/Area2DRedFish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +36,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9fd3b083f28f40c0827cc635e2e56ca7459200/01/4bdf413c/ResourceLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9fd3b083f28f40c0827cc635e2e56ca7459200/45/cb2c1b45/ResourcePreloader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9fd3b083f28f40c0827cc635e2e56ca7459200/8c/f3b40b7c/Variant.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9fd3b083f28f40c0827cc635e2e56ca7459200/d3/978204c6/Timer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a58fbeae4f3944df81411b5e04b02667b510/22/a71dbc86/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a58fbeae4f3944df81411b5e04b02667b510/69/096c7c61/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2624591bea0457484a6d82bf26b69db74508/ae/3a25a950/Random.cs" root0="SKIP_HIGHLIGHTING" />
@@ -115,6 +128,8 @@
       <workItem from="1719419952515" duration="534000" />
       <workItem from="1719420569190" duration="638000" />
       <workItem from="1719678696911" duration="744000" />
+      <workItem from="1720108060375" duration="38000" />
+      <workItem from="1720110575739" duration="2429000" />
     </task>
     <servers />
   </component>
