@@ -58,6 +58,9 @@ offset_right = 263.0
 offset_bottom = 210.0
 text = "Go back"
 
+[node name="SoundPlayer" type="AudioStreamPlayer" parent="."]
+volume_db = -12.905
+
 [connection signal="pressed" from="HitButton" to="." method="HitButtonPressed"]
 [connection signal="pressed" from="StayButton" to="." method="StayButtonPressed"]
 [connection signal="pressed" from="ResetButton" to="." method="ResetButtonPressed"]

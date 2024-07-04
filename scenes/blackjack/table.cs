@@ -7,14 +7,13 @@ public partial class table : Node2D
 {
     private List<KeyValuePair<string, int>> deck { get; set; } = new();
 
-
-    //private int dealerSum { get; set; }
-    //private int playerSum { get; set; }
     private List<int> playerCards { get; set; }
     private List<int> dealerCards { get; set; }
     private Random random = new();
     private static Vector2 PLAYER_CARD_LOCATION = new Vector2(480, 380);
     private static Vector2 DEALER_CARD_LOCATION = new Vector2(480, 100);
+
+    private AudioStreamPlayer asp;
 
     private Button btnReset;
     private Button btnHit;
@@ -92,6 +91,10 @@ public partial class table : Node2D
 
     private void HitButtonPressed()
     {
+        var sound = ResourceLoader.Load<AudioStreamOggVorbis>("res://assets/audio/cards/cardPlace.ogg");
+        asp.Stream = sound;
+        asp.Play();
+
         DealPlayer();
         updateScore();
 
@@ -110,19 +113,17 @@ public partial class table : Node2D
         //reverse dealers second card
 
         btnHit.Disabled = true;
-
+        
         while (dealerCards.Sum() < 17)
         {
             DealDealer();
             updateScore();
         }
 
-        if (dealerCards.Sum() > 21)
+        if (dealerCards.Sum() > 21 || dealerCards.Sum() < playerCards.Sum())
             GameWon();
         else if (dealerCards.Sum() > playerCards.Sum())
             GameOver();
-        else if (dealerCards.Sum() < playerCards.Sum())
-            GameWon();
         else
             GameTie();
     }
@@ -148,26 +149,43 @@ public partial class table : Node2D
 
     private void BlackJack()
     {
+        var sound = ResourceLoader.Load<AudioStreamOggVorbis>("res://assets/audio/cards/victoryJingle.ogg");
+        asp.Stream = sound;
+        asp.Play();
+
         lblGameState.Text = "BLACKJACK :) :)";
+        numWins++;
+        GameEnd();
+    }
+
+    private void GameWon()
+    {
+        var sound = ResourceLoader.Load<AudioStreamOggVorbis>("res://assets/audio/cards/victoryJingle.ogg");
+        asp.Stream = sound;
+        asp.Play();
+
+        lblGameState.Text = "You Won :)";
         numWins++;
         GameEnd();
     }
 
     private void GameTie()
     {
+        var sound = ResourceLoader.Load<AudioStreamOggVorbis>("res://assets/audio/cards/tieJingle.ogg");
+        asp.Stream = sound;
+        asp.Play();
+
         GameEnd();
         lblGameState.Text = "It's a tie :|";
     }
 
-    private void GameWon()
-    {
-        lblGameState.Text = "You Won :)";
-        numWins++;
-        GameEnd();
-    }
 
     private void GameOver()
     {
+        var sound = ResourceLoader.Load<AudioStreamOggVorbis>("res://assets/audio/cards/losingJingle.ogg");
+        asp.Stream = sound;
+        asp.Play();
+
         GameEnd();
         lblGameState.Text = "You Lost :(";
     }
@@ -202,6 +220,10 @@ public partial class table : Node2D
         btnStay.Disabled = false;
 
         RefillDeck();
+        var sound = ResourceLoader.Load<AudioStreamOggVorbis>("res://assets/audio/cards/cardPlace.ogg");
+        asp.Stream = sound;
+        asp.Play();
+
 
         DealPlayer();
         DealDealer();
@@ -229,6 +251,7 @@ public partial class table : Node2D
         playerCards = new();
         dealerCards = new();
         numWins = 0;
+        asp = GetNode<AudioStreamPlayer>("SoundPlayer");
 
         StartNewGame();
     }
