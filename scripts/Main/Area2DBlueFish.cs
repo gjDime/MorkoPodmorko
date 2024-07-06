@@ -28,7 +28,7 @@ public partial class Area2DBlueFish : Area2D
 		{
 			if (Input.IsActionPressed("Interact"))
 			{
-				GetTree().ChangeSceneToFile("res://scenes/Pong_Game.tscn");
+				GetTree().ChangeSceneToFile("res://scenes/Pong/Pong.tscn");
 			}
 		}
 	}

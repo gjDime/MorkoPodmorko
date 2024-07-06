@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://7c61apleesxa"]
+
+[ext_resource type="Script" path="res://scripts/Pong/Pong.cs" id="1_l501t"]
+[ext_resource type="PackedScene" uid="uid://dkgkkys5scp10" path="res://scenes/Pong/Pong_Game.tscn" id="2_ccdny"]
+[ext_resource type="PackedScene" uid="uid://bsey7t7qykphj" path="res://scenes/Pong/GameOverUI.tscn" id="3_v43xm"]
+[ext_resource type="AudioStream" uid="uid://ub2iccjmf0hw" path="res://assets/audio/Background_Music/Pong.mp3" id="4_6kvwm"]
+
+[node name="Pong" type="Node"]
+process_mode = 3
+script = ExtResource("1_l501t")
+
+[node name="Pong_Game" parent="." instance=ExtResource("2_ccdny")]
+process_mode = 1
+
+[node name="GameOverScene" parent="." instance=ExtResource("3_v43xm")]
+process_mode = 3
+
+[node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_6kvwm")
+autoplay = true
