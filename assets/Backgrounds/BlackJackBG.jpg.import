@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d28vh2sfyng8i"
-path="res://.godot/imported/hit.png-0643c6e3e1937f7b15579b48958df1be.ctex"
+uid="uid://cn51ly5xm8ui8"
+path="res://.godot/imported/BlackJackBG.jpg-59b22791dfdab296e5e50956ff7ee491.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/submarine2-rocks/hit.png"
-dest_files=["res://.godot/imported/hit.png-0643c6e3e1937f7b15579b48958df1be.ctex"]
+source_file="res://assets/Backgrounds/BlackJackBG.jpg"
+dest_files=["res://.godot/imported/BlackJackBG.jpg-59b22791dfdab296e5e50956ff7ee491.ctex"]
 
 [params]
 

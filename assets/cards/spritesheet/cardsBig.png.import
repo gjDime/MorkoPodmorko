@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpodv0g0hin7q"
-path="res://.godot/imported/underwater tileable.png-a6fc56593fb703f861fca38950157129.ctex"
+uid="uid://bcgf0ptrgp7vk"
+path="res://.godot/imported/cardsBig.png-07060a6922537355a8c300823ff964d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/bg/underwater tileable.png"
-dest_files=["res://.godot/imported/underwater tileable.png-a6fc56593fb703f861fca38950157129.ctex"]
+source_file="res://assets/cards/spritesheet/cardsBig.png"
+dest_files=["res://.godot/imported/cardsBig.png-07060a6922537355a8c300823ff964d0.ctex"]
 
 [params]
 

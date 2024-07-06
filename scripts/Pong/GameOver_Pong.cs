@@ -23,7 +23,7 @@ public partial class GameOver_Pong : Control
         var global = GetNode<global_var>("/root/GlobalVar");
         global.pongGameOver = false;
         this.Visible = false;
-        GetTree().ChangeSceneToFile("res://scenes/game.tscn");
+        GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
     }
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)

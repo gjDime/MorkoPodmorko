@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bdf5chu781jjh"]
 
-[ext_resource type="Script" path="res://scenes/blackjack/table.cs" id="1_jchlr"]
-[ext_resource type="Texture2D" uid="uid://cn51ly5xm8ui8" path="res://assets/bg/BlackJackBG.jpg" id="2_wkr2b"]
+[ext_resource type="Script" path="res://scripts/blackjack/table.cs" id="1_jchlr"]
+[ext_resource type="Texture2D" uid="uid://cn51ly5xm8ui8" path="res://assets/Backgrounds/BlackJackBG.jpg" id="2_wkr2b"]
 [ext_resource type="AudioStream" uid="uid://caslbm084g732" path="res://assets/audio/Background_Music/Casino.mp3" id="3_w5ivk"]
 
 [node name="Table" type="Node2D"]

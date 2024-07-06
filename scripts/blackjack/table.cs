@@ -203,7 +203,7 @@ public partial class table : Node2D
     {
         var global = GetNode<global_var>("/root/GlobalVar");
         global.purpleFish = false;
-        GetTree().ChangeSceneToFile("res://scenes/game.tscn");
+        GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
     }
 
     private void StartNewGame()

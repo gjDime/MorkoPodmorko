@@ -17,4 +17,5 @@ process_mode = 3
 
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_6kvwm")
+volume_db = -20.497
 autoplay = true

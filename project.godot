@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="MorkoPodmorko"
-run/main_scene="res://scenes/game.tscn"
+run/main_scene="res://scenes/Main/game.tscn"
 config/features=PackedStringArray("4.2", "C#", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
-GlobalVar="*res://global_var.cs"
+GlobalVar="*res://scripts/global_var.cs"
 
 [dotnet]
 
