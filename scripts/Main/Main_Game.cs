@@ -13,12 +13,14 @@ public partial class Main_Game : Node2D
         {
             purpleFishSprite.FlipV = true;
             purpleFishSprite.Frame = 1;
+            purpleFishSprite.Stop();
         }
 
         if (!global.blueFish)//TODO
         {
             blueFishSpirte.FlipV = true;
             blueFishSpirte.Frame = 1;
+            purpleFishSprite.Stop();
         }
     }
 

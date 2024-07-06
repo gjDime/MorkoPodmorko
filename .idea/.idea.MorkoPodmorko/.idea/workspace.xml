@@ -6,23 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/blackjackJingle.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/blackjackJingle.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/cardFlip.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/cardFlip.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/cardPlace.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/cardPlace.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/collectCards.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/collectCards.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/losingJingle.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/losingJingle.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/tieJingle.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/tieJingle.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/victoryJingle.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/audio/victoryJingle.ogg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/blackjack/table.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/table.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Main/Main_Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Main/Main_Game.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +113,8 @@
       <workItem from="1719420569190" duration="638000" />
       <workItem from="1719678696911" duration="744000" />
       <workItem from="1720108060375" duration="38000" />
-      <workItem from="1720110575739" duration="2429000" />
+      <workItem from="1720110575739" duration="3730000" />
+      <workItem from="1720283178055" duration="32000" />
     </task>
     <servers />
   </component>
