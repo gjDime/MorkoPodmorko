@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\pong_ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\pong_ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\main\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\main\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scenes\\blackjack\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scenes\\blackjack\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Main\\Controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\Main\\Controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\pong_ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\pong_ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\gameover_pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\gameover_pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scenes\\main\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scenes\\main\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\right_goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\right_goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\left_goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\left_goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\pong_ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\pong_ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\pong_ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\pong_ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\blackjack\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\blackjack\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\right_goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\right_goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,24 +63,24 @@
       "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scripts\\pong\\gameover_pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scripts\\pong\\gameover_pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scenes\\Pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\global_var.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:global_var.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|c:\\users\\borko\\documents\\github\\morkopodmorko\\scenes\\blackjack\\hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80E549F-D681-4A92-956B-4B96E169AE2C}|MorkoPodmorko.csproj|solutionrelative:scenes\\blackjack\\hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\GameOver_Pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\GameOver_Pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\Hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scenes\\blackjack\\Hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\global_var.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global_var.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scenes\\blackjack\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Hit.cs",
               "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\Hit.cs",
               "RelativeDocumentMoniker": "scenes\\blackjack\\Hit.cs",
@@ -95,7 +107,173 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "Controls.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Main\\Controls.cs",
+              "RelativeDocumentMoniker": "scripts\\Main\\Controls.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Main\\Controls.cs",
+              "RelativeToolTip": "scripts\\Main\\Controls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:30:35.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Controls.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Main\\Controls.cs",
+              "RelativeDocumentMoniker": "scenes\\Main\\Controls.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Main\\Controls.cs",
+              "RelativeToolTip": "scenes\\Main\\Controls.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:27:05.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Main\\StartMenu.cs",
+              "RelativeDocumentMoniker": "scripts\\Main\\StartMenu.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Main\\StartMenu.cs",
+              "RelativeToolTip": "scripts\\Main\\StartMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T18:16:10.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pong.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Pong.cs",
+              "RelativeDocumentMoniker": "scenes\\Pong.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Pong.cs",
+              "RelativeToolTip": "scenes\\Pong.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:16:46.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PongController.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\PongController.cs",
+              "RelativeDocumentMoniker": "scripts\\PongController.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\PongController.cs",
+              "RelativeToolTip": "scripts\\PongController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:36:32.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "player.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\player.cs",
+              "RelativeDocumentMoniker": "scripts\\player.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\player.cs",
+              "RelativeToolTip": "scripts\\player.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:25:45.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pong.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong.cs",
+              "RelativeDocumentMoniker": "scripts\\Pong.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong.cs",
+              "RelativeToolTip": "scripts\\Pong.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T17:15:39.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "global_var.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\global_var.cs",
+              "RelativeDocumentMoniker": "global_var.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\global_var.cs",
+              "RelativeToolTip": "global_var.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:47:09.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameOver_Pong.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\GameOver_Pong.cs",
+              "RelativeDocumentMoniker": "scripts\\Pong\\GameOver_Pong.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\GameOver_Pong.cs",
+              "RelativeToolTip": "scripts\\Pong\\GameOver_Pong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:31:53.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "table.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\table.cs",
+              "RelativeDocumentMoniker": "scenes\\blackjack\\table.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\table.cs",
+              "RelativeToolTip": "scenes\\blackjack\\table.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAiwF4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:26:46.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pong_ball.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Pong_ball.cs",
+              "RelativeDocumentMoniker": "scripts\\Pong\\Pong_ball.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Pong_ball.cs",
+              "RelativeToolTip": "scripts\\Pong\\Pong_ball.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:42:07.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "pong_ai.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\pong_ai.cs",
+              "RelativeDocumentMoniker": "scripts\\Pong\\pong_ai.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\pong_ai.cs",
+              "RelativeToolTip": "scripts\\Pong\\pong_ai.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:36:20.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Left_Goal.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Left_Goal.cs",
+              "RelativeDocumentMoniker": "scripts\\Pong\\Left_Goal.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Left_Goal.cs",
+              "RelativeToolTip": "scripts\\Pong\\Left_Goal.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:42:41.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Right_Goal.cs",
+              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Right_Goal.cs",
+              "RelativeDocumentMoniker": "scripts\\Pong\\Right_Goal.cs",
+              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Right_Goal.cs",
+              "RelativeToolTip": "scripts\\Pong\\Right_Goal.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:42:26.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Pong.cs",
               "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Pong.cs",
               "RelativeDocumentMoniker": "scripts\\Pong\\Pong.cs",
@@ -108,124 +286,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Pong.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Pong.cs",
-              "RelativeDocumentMoniker": "scenes\\Pong.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\Pong.cs",
-              "RelativeToolTip": "scenes\\Pong.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:16:46.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PongController.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\PongController.cs",
-              "RelativeDocumentMoniker": "scripts\\PongController.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\PongController.cs",
-              "RelativeToolTip": "scripts\\PongController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:36:32.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "player.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\player.cs",
-              "RelativeDocumentMoniker": "scripts\\player.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\player.cs",
-              "RelativeToolTip": "scripts\\player.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:25:45.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pong.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong.cs",
-              "RelativeDocumentMoniker": "scripts\\Pong.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong.cs",
-              "RelativeToolTip": "scripts\\Pong.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T17:15:39.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "global_var.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\global_var.cs",
-              "RelativeDocumentMoniker": "global_var.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\global_var.cs",
-              "RelativeToolTip": "global_var.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T16:47:09.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameOver_Pong.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\GameOver_Pong.cs",
-              "RelativeDocumentMoniker": "scripts\\Pong\\GameOver_Pong.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\GameOver_Pong.cs",
-              "RelativeToolTip": "scripts\\Pong\\GameOver_Pong.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:31:53.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "table.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\table.cs",
-              "RelativeDocumentMoniker": "scenes\\blackjack\\table.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scenes\\blackjack\\table.cs",
-              "RelativeToolTip": "scenes\\blackjack\\table.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAiwF4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T14:26:46.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pong_ball.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Pong_ball.cs",
-              "RelativeDocumentMoniker": "scripts\\Pong\\Pong_ball.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Pong_ball.cs",
-              "RelativeToolTip": "scripts\\Pong\\Pong_ball.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:42:07.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "pong_ai.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\pong_ai.cs",
-              "RelativeDocumentMoniker": "scripts\\Pong\\pong_ai.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\pong_ai.cs",
-              "RelativeToolTip": "scripts\\Pong\\pong_ai.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:36:20.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Left_Goal.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Left_Goal.cs",
-              "RelativeDocumentMoniker": "scripts\\Pong\\Left_Goal.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Left_Goal.cs",
-              "RelativeToolTip": "scripts\\Pong\\Left_Goal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:42:41.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Pong_Game.cs",
               "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Pong_Game.cs",
               "RelativeDocumentMoniker": "scripts\\Pong\\Pong_Game.cs",
@@ -237,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "player.cs",
               "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\player.cs",
               "RelativeDocumentMoniker": "scripts\\Pong\\player.cs",
@@ -249,19 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Right_Goal.cs",
-              "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Right_Goal.cs",
-              "RelativeDocumentMoniker": "scripts\\Pong\\Right_Goal.cs",
-              "ToolTip": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\Pong\\Right_Goal.cs",
-              "RelativeToolTip": "scripts\\Pong\\Right_Goal.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwCoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:42:26.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\Borko\\Documents\\GitHub\\MorkoPodmorko\\scripts\\blackjack\\Card.cs",
               "RelativeDocumentMoniker": "scripts\\blackjack\\Card.cs",

@@ -32,7 +32,7 @@ public partial class Right_Goal : Area2D
         {
             var global = GetNode<global_var>("/root/GlobalVar");
             global.blueFish = false;
-            GetTree().ChangeSceneToFile("res://scenes/game.tscn");
+            GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
         }
 
     }
@@ -40,7 +40,7 @@ public partial class Right_Goal : Area2D
     private void resetScene()
     {
         ball.Position = new Vector2(1557,414);
-        ball.Velocity = new Vector2(-200, 200);
+        ball.Velocity = new Vector2(-210, 210);
 
     }
 	// Called every frame. 'delta' is the elapsed time since the previous frame.

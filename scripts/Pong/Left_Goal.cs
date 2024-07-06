@@ -39,7 +39,7 @@ public partial class Left_Goal : Area2D
     private void resetScene()
     {
         ball.Position = new Vector2(1557, 414);
-        ball.Velocity = new Vector2(-200, 200);
+        ball.Velocity = new Vector2(-210, 210);
         player.Position = new Vector2(player.Position.X, player.Position.Y);
         CPU.Position = new Vector2(CPU.Position.X, CPU.Position.Y);
     }

@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=3 uid="uid://cwiq0kgq362tq"]
+
+[ext_resource type="Script" path="res://scripts/Main/Controls.cs" id="1_7hmlg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_l6wyl"]
+font_size = 28
+
+[sub_resource type="LabelSettings" id="LabelSettings_631lx"]
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_l1xxy"]
+font_size = 20
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7hmlg")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1150.0
+offset_bottom = 643.0
+color = Color(0.25098, 0.0901961, 1, 0.698039)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "КОНТРОЛИ"
+label_settings = SubResource("LabelSettings_l6wyl")
+
+[node name="Controls" type="Label" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+text = "
+W - Горе
+S - Долу
+A - Лево
+D - Десно
+Е / Space - Интеракција со рибите
+
+"
+label_settings = SubResource("LabelSettings_631lx")
+
+[node name="Instructions" type="Label" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+text = "Pong се игра со W и С
+BlackJack се игра со маусот
+
+"
+label_settings = SubResource("LabelSettings_l1xxy")
+
+[node name="GoBack" type="Button" parent="ColorRect/VBoxContainer"]
+layout_mode = 2
+text = "Врати се назад"
+
+[connection signal="pressed" from="ColorRect/VBoxContainer/GoBack" to="." method="GoBackPressed"]

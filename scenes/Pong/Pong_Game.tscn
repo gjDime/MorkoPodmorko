@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/Pong/Pong_Game.cs" id="1_kwh8a"]
 [ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Pong/Player_pong.tscn" id="1_lfilk"]
-[ext_resource type="Texture2D" uid="uid://dfrlhdy4cpsny" path="res://assets/Backgrounds/sea_background.png" id="1_ssqvx"]
+[ext_resource type="Texture2D" uid="uid://wior6nribkit" path="res://assets/Backgrounds/sea_background.png" id="1_ssqvx"]
 [ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong/Pong_ball.tscn" id="2_y4fue"]
 [ext_resource type="Texture2D" uid="uid://d8gbdm84r0yg" path="res://assets/Backgrounds/foreground.png" id="4_152ff"]
 [ext_resource type="Texture2D" uid="uid://dkasc1pj6ariq" path="res://assets/Solid_Colors/white.jpg" id="5_0u21u"]
@@ -18,7 +18,7 @@ size = Vector2(115.502, 793.477)
 size = Vector2(3129.41, 47.2658)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m66p1"]
-size = Vector2(113.597, 735.576)
+size = Vector2(133.935, 735.576)
 
 [sub_resource type="LabelSettings" id="LabelSettings_qlawt"]
 font_size = 36
@@ -122,7 +122,8 @@ position = Vector2(3042.41, 384.035)
 script = ExtResource("9_u5jh3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Goal"]
-position = Vector2(2.41675, 0.000518799)
+position = Vector2(-5.7395, 0.000518799)
+scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_m66p1")
 
 [node name="Left_Goal" type="Area2D" parent="."]
@@ -131,7 +132,7 @@ scale = Vector2(1.10875, 1)
 script = ExtResource("8_str5e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Left_Goal"]
-position = Vector2(21.7508, -9.15527e-05)
+position = Vector2(23.7634, -0.00012207)
 scale = Vector2(1, 0.999999)
 shape = SubResource("RectangleShape2D_m66p1")
 

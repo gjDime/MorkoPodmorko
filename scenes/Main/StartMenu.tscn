@@ -1,0 +1,83 @@
+[gd_scene load_steps=4 format=3 uid="uid://bq0gp3k681x5q"]
+
+[ext_resource type="Script" path="res://scripts/Main/StartMenu.cs" id="1_2vvc4"]
+[ext_resource type="Texture2D" uid="uid://cu700lj5rl3mh" path="res://assets/Backgrounds/pixel-game-submarine-underwater-landscape-vector.jpg" id="2_4lco4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ky0st"]
+line_spacing = 0.0
+font_size = 50
+font_color = Color(0.908244, 0.747122, 0, 1)
+outline_size = 10
+shadow_size = 20
+
+[node name="StartMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2vvc4")
+
+[node name="BackGround" type="Sprite2D" parent="."]
+position = Vector2(200, -84)
+scale = Vector2(0.989583, 1.3537)
+texture = ExtResource("2_4lco4")
+
+[node name="ReferenceRect" type="ReferenceRect" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -2.0
+offset_right = 1152.0
+offset_bottom = 639.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ReferenceRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -410.5
+offset_top = -69.5
+offset_right = 410.5
+offset_bottom = 69.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Title" type="Label" parent="ReferenceRect/VBoxContainer"]
+layout_mode = 2
+text = "Авантурите на Морко Подморко"
+label_settings = SubResource("LabelSettings_ky0st")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="ReferenceRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.5
+offset_top = 12.5
+offset_right = 151.5
+offset_bottom = 78.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Play" type="Button" parent="ReferenceRect/VBoxContainer2"]
+layout_mode = 2
+text = "Играј!"
+
+[node name="Button" type="Button" parent="ReferenceRect/VBoxContainer2"]
+layout_mode = 2
+text = "Контроли"
+
+[node name="Exit" type="Button" parent="ReferenceRect/VBoxContainer2"]
+layout_mode = 2
+text = "Излези :("
+
+[connection signal="pressed" from="ReferenceRect/VBoxContainer2/Play" to="." method="PlayPressed"]
+[connection signal="pressed" from="ReferenceRect/VBoxContainer2/Button" to="." method="ControlsPressed"]
+[connection signal="pressed" from="ReferenceRect/VBoxContainer2/Exit" to="." method="ExitPressed"]

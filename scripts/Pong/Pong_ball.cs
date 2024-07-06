@@ -10,7 +10,7 @@ public partial class Pong_ball : CharacterBody2D
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        velocity = new Vector2(-200, 200);
+        velocity = new Vector2(-210, 210);
         asp = this.GetParent().GetNode<AudioStreamPlayer2D>("Impact");
     }
     public override void _PhysicsProcess(double delta)
