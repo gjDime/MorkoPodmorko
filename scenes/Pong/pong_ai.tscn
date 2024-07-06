@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://d3tq851m81pqt"]
 
-[ext_resource type="Texture2D" uid="uid://bgymofb7ctahg" path="res://assets/PlaceHolderAssets/Capture.PNG" id="1_jrtjx"]
+[ext_resource type="Texture2D" uid="uid://bgymofb7ctahg" path="res://assets/Solid_Colors/Pong_Texture.PNG" id="1_jrtjx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l4lek"]
 size = Vector2(2, 18)
