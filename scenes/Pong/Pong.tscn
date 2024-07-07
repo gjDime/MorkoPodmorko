@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://7c61apleesxa"]
+[gd_scene load_steps=5 format=3 uid="uid://dhgqcx0lqxelf"]
 
 [ext_resource type="Script" path="res://scripts/Pong/Pong.cs" id="1_l501t"]
 [ext_resource type="PackedScene" uid="uid://dkgkkys5scp10" path="res://scenes/Pong/Pong_Game.tscn" id="2_ccdny"]
@@ -17,9 +17,5 @@ process_mode = 3
 
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_6kvwm")
-<<<<<<< Updated upstream
-volume_db = -15.942
-=======
-volume_db = -7.395
->>>>>>> Stashed changes
+volume_db = -20.497
 autoplay = true
