@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwylnmri4fr5e"]
+
+[ext_resource type="Script" path="res://scripts/Main/QuitButton.cs" id="1_wndw4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nty22"]
+font_size = 86
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 500
+shadow_color = Color(0.0737574, 0.348638, 0.251317, 0)
+shadow_offset = Vector2(1.085, 1.36)
+
+[node name="EndScene" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.778922, 0.408196, 0.621975, 1)
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 492.0
+offset_top = 407.0
+offset_right = 591.0
+offset_bottom = 463.0
+text = "Quit
+"
+script = ExtResource("1_wndw4")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 304.0
+offset_top = 137.0
+offset_right = 779.0
+offset_bottom = 266.0
+text = "Победивте!!"
+label_settings = SubResource("LabelSettings_nty22")
+
+[connection signal="pressed" from="QuitButton" to="QuitButton" method="Pressed"]

@@ -8,7 +8,8 @@ public partial class Main_Game : Node2D
     {
         var global = GetNode<global_var>("/root/GlobalVar");
         var purpleFishSprite = GetNode<AnimatedSprite2D>("PurpleFish/AnimatedSprite2D2");
-        var blueFishSpirte = GetNode<AnimatedSprite2D>("BlueFish/AnimatedSprite2D2");
+        var blueFishSprite = GetNode<AnimatedSprite2D>("BlueFish/AnimatedSprite2D2");
+        
         if (!global.purpleFish)
         {
             purpleFishSprite.FlipV = true;
@@ -16,16 +17,16 @@ public partial class Main_Game : Node2D
             purpleFishSprite.Stop();
         }
 
-        if (!global.blueFish)//TODO
+        if (!global.blueFish)
         {
-            blueFishSpirte.FlipV = true;
-            blueFishSpirte.Frame = 1;
-            purpleFishSprite.Stop();
+            blueFishSprite.FlipV = true;
+            blueFishSprite.Frame = 1;
+            blueFishSprite.Stop();
         }
-    }
 
-    // Called every frame. 'delta' is the elapsed time since the previous frame.
-    public override void _Process(double delta)
-    {
+        if (!global.blueFish && !global.purpleFish)
+        {
+            GetTree().ChangeSceneToFile("res://scenes/Main/end_scene.tscn");
+        }
     }
 }

@@ -7,7 +7,7 @@ public partial class Right_Goal : Area2D
     private CharacterBody2D ball { get; set; }
     private CharacterBody2D player { get; set; }
     private CharacterBody2D CPU { get; set; }
-    private Label lblPlayer {  get; set; }
+    private Label lblPlayer { get; set; }
     int Player_Score;
 
     public override void _Ready()
@@ -27,24 +27,27 @@ public partial class Right_Goal : Area2D
             Player_Score++;
             lblPlayer.Text = Player_Score.ToString();
             resetScene();
-        }  
+        }
+
         if (Player_Score >= 3)
         {
             var global = GetNode<global_var>("/root/GlobalVar");
             global.blueFish = false;
-            GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
-        }
+            if (global.purpleFish)
+                GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
+            GetTree().ChangeSceneToFile("res://scenes/Main/end_scene.tscn");
 
+        }
     }
-    
+
     private void resetScene()
     {
-        ball.Position = new Vector2(1557,414);
+        ball.Position = new Vector2(1557, 414);
         ball.Velocity = new Vector2(-210, 210);
-
     }
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
+
+    // Called every frame. 'delta' is the elapsed time since the previous frame.
+    public override void _Process(double delta)
+    {
+    }
 }

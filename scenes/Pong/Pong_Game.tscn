@@ -1,6 +1,5 @@
-[gd_scene load_steps=16 format=3 uid="uid://dkgkkys5scp10"]
+[gd_scene load_steps=15 format=3 uid="uid://dkgkkys5scp10"]
 
-[ext_resource type="Script" path="res://scripts/Pong/Pong_Game.cs" id="1_kwh8a"]
 [ext_resource type="PackedScene" uid="uid://b8j5ak7gmhgh0" path="res://scenes/Pong/Player_pong.tscn" id="1_lfilk"]
 [ext_resource type="Texture2D" uid="uid://wior6nribkit" path="res://assets/Backgrounds/sea_background.png" id="1_ssqvx"]
 [ext_resource type="PackedScene" uid="uid://d4bidp2i5eyxs" path="res://scenes/Pong/Pong_ball.tscn" id="2_y4fue"]
@@ -28,7 +27,6 @@ font_size = 36
 
 [node name="Pong_Game" type="Node2D"]
 scale = Vector2(0.367801, 0.846276)
-script = ExtResource("1_kwh8a")
 
 [node name="Backgrounds" type="Node2D" parent="."]
 
@@ -123,7 +121,6 @@ script = ExtResource("9_u5jh3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Goal"]
 position = Vector2(-5.7395, 0.000518799)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_m66p1")
 
 [node name="Left_Goal" type="Area2D" parent="."]

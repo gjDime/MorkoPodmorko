@@ -26,7 +26,5 @@ public partial class GameOver_Pong : Control
         GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
     }
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
+
 }

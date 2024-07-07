@@ -113,7 +113,7 @@ public partial class table : Node2D
         //reverse dealers second card
 
         btnHit.Disabled = true;
-        
+
         while (dealerCards.Sum() < 17)
         {
             DealDealer();
@@ -203,7 +203,9 @@ public partial class table : Node2D
     {
         var global = GetNode<global_var>("/root/GlobalVar");
         global.purpleFish = false;
-        GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
+        if (global.blueFish)
+            GetTree().ChangeSceneToFile("res://scenes/Main/game.tscn");
+        GetTree().ChangeSceneToFile("res://scenes/Main/end_scene.tscn");
     }
 
     private void StartNewGame()

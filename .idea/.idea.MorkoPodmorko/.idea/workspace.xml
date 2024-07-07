@@ -6,81 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3c073d3e-671e-47e2-ae1d-4225430ac551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MorkoPodmorko/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cards/New folder/cards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cards/New folder/cards.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cards/New folder/cardsBig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cards/New folder/cardsBig.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fish pack/Preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fish pack/Preview.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fish pack/Sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fish pack/Sample.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/Capture.PNG.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/Shark.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark1.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark2.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark3.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark4.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark5.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark6.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark7.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/shark myb/shark sprite/Shark8.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine1/submarinegreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine1/submarinegreen.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine1/submarinewindowless.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine1/submarinewindowless.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/current.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/current1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/current1.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/hit.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/hit2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/hit2.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle1.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle2.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle3.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/idle4.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock1.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock2.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock3.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rock4.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rocks.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/rocks.svg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/sub1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/sub1.png.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/sub1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/sub1.svg.2017_03_19_15_57_04.0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/sub1.svg.2017_03_19_15_57_04.0.svg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/submarine2-rocks/sub1.svg.import" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/global_var.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_fish.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/Main/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Main/game.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenes/Pong/Pong.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong/Pong.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/Tiles.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/blackjack/Hit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/Pong/Pong_Game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/Pong/Pong_Game.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/blackjack/blackjack_game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/blackjack/table.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/blue_fish.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/game.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scenes/player.tscn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Pong/GameOver_Pong.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Pong/GameOver_Pong.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Main/Main_Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Main/Main_Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Pong/Pong_Game.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/blackjack/table.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/blackjack/table.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/global_var.cs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/global_var.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +122,9 @@
       <workItem from="1720108060375" duration="38000" />
       <workItem from="1720110575739" duration="3730000" />
       <workItem from="1720283178055" duration="1106000" />
+      <workItem from="1720287858999" duration="21000" />
+      <workItem from="1720382407102" duration="294000" />
+      <workItem from="1720383792987" duration="1672000" />
     </task>
     <servers />
   </component>
