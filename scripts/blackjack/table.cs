@@ -137,7 +137,7 @@ public partial class table : Node2D
     private void updateScore()
     {
         if (dealerCards.Contains(11) && dealerCards.Sum() > 21)
-            dealerCards[dealerCards.IndexOf(11)] = 1;
+            dealerCards[dealerCards.IndexOf(11)] = 1; 
 
         if (playerCards.Contains(11) && playerCards.Sum() > 21)
             playerCards[playerCards.IndexOf(11)] = 1;

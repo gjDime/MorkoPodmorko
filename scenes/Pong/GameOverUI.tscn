@@ -4,6 +4,7 @@
 [ext_resource type="Material" uid="uid://bw048fhfr4uph" path="res://Shaders/blur.tres" id="2_qtf0e"]
 
 [sub_resource type="SystemFont" id="SystemFont_m3ehr"]
+subpixel_positioning = 0
 
 [sub_resource type="Theme" id="Theme_ijtmb"]
 default_font = SubResource("SystemFont_m3ehr")

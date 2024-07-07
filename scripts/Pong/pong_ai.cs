@@ -16,7 +16,7 @@ public partial class pong_ai : CharacterBody2D
 
        
 
-        if (random.Next(0, 8) == 1)
+        if (random.Next(0, 6) == 1)
         {
             directionY = Ball.Position.Y - Position.Y;
         }
