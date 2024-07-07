@@ -27,7 +27,7 @@ public partial class Pong_ball : CharacterBody2D
 
         }
 
-		Position += velocity * (float)delta*2;
+		Position += velocity * (float)delta;
 
     }
 
